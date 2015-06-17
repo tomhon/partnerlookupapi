@@ -1,0 +1,34 @@
+﻿@model Static_Data.Models.PartnerMapping
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PartnerMapping</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PartnerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PartnerName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
