@@ -20,6 +20,7 @@ namespace Static_Data.Controllers
                 new PartnerMapping { Id = 1, TE = "Matt", PartnerName = "PayPal"},
                 new PartnerMapping { Id = 2, TE = "Richard", PartnerName = "Netflix"},
                 new PartnerMapping { Id = 3, TE = "Nathalie", PartnerName = "Twitch"},
+                new PartnerMapping { Id = 4, TE = "Chris", PartnerName = "Facebook"},
 
             };
         }
