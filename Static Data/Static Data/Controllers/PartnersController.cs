@@ -24,6 +24,18 @@ namespace Static_Data.Controllers
 
             };
         }
+        public IEnumerable<PartnerMapping> GetAccountsByTE(string TE)
+        {
+            //var tc = new TelemetryClient();
+            //tc.TrackEvent("GetAccounts Called");
+            return new PartnerMapping[]{
+                new PartnerMapping { Id = 1, TE = "Matt", PartnerName = "PayPal"},
+                new PartnerMapping { Id = 2, TE = "Richard", PartnerName = "Netflix"},
+                new PartnerMapping { Id = 3, TE = "Nathalie", PartnerName = "Twitch"},
+                new PartnerMapping { Id = 4, TE = "Chris", PartnerName = "Facebook"},
+
+            };
+        }
     }
 }
 
